@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rapid Recovery | 24/7 Vehicle Recovery Portsmouth</title>
+  <meta
+    name="description"
+    content="Rapid Recovery offers fast, reliable 24/7 vehicle recovery and roadside assistance in Portsmouth and surrounding areas."
+  />
+  <!-- LINK TO YOUR CSS FILE -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark">RR</div>
+        <div class="brand-text">
+          <div class="brand-name">Rapid Recovery</div>
+          <div class="brand-sub">24/7 Vehicle Recovery</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#why-us">Why us</a>
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <div class="pill">
+          <span class="pill-dot"></span>
+          <span>Live within ~45 mins • Portsmouth</span>
+        </div>
+        <a href="tel:+447000000000" class="btn btn-primary">
+          Call now
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="eyebrow-badge">24/7 emergency</span>
+            <span>Stuck on the roadside in or around Portsmouth?</span>
+          </div>
+          <h1>
+            Broke down?<br />
+            <span class="hero-highlight">We get you moving again.</span>
+          </h1>
+          <p>
+            Rapid Recovery connects you with trusted local recovery drivers, fast.
+            One quick form or call and we’ll get a truck on its way — no membership,
+            no nonsense, just straight-up recovery.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#quote" class="btn btn-primary">
+              Get instant callback
+            </a>
+            <a href="tel:+447000000000" class="btn btn-outline">
+              Call dispatch
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="hero-note-dot"></span>
+            <span>Average response time under <strong>45 minutes</strong> in Portsmouth (traffic permitting).</span>
+          </div>
+
+          <div class="hero-meta">
+            <span><strong>No membership</strong> – pay only when you need us</span>
+            <span><strong>Cars, vans &amp; bikes</strong> – all covered</span>
+            <span><strong>Local operators</strong> – no call centre abroad</span>
+          </div>
+        </div>
+
+        <!-- HERO FORM CARD -->
+        <aside class="hero-card" id="quote">
+          <div class="hero-card-inner">
+            <div class="hero-card-header">
+              <div>
+                <div class="hero-card-title">Free recovery quote in 60 seconds</div>
+                <div class="hero-card-sub">Tell us where you are and where you’re going.</div>
+              </div>
+              <div class="hero-card-badge">
+                <span></span>
+                Live operator
+              </div>
+            </div>
+
+            <form>
+              <div class="field-row">
+                <div class="field">
+                  <label for="name">Your name</label>
+                  <input id="name" name="name" type="text" placeholder="John" required />
+                </div>
+                <div class="field">
+                  <label for="phone">Mobile number</label>
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    placeholder="07..."
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="field-row">
+                <div class="field">
+                  <label for="pickup">Pickup location</label>
+                  <input
+                    id="pickup"
+                    name="pickup"
+                    type="text"
+                    placeholder="Street / postcode"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <label for="dropoff">Drop-off location</label>
+                  <input
+                    id="dropoff"
+                    name="dropoff"
+                    type="text"
+                    placeholder="Home / garage"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="field-row">
+                <div class="field">
+                  <label for="vehicle">Vehicle type</label>
+                  <select id="vehicle" name="vehicle" required>
+                    <option value="">Select</option>
+                    <option value="car">Car</option>
+                    <option value="van">Van</option>
+                    <option value="4x4">4x4 / SUV</option>
+                    <option value="bike">Motorbike</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="urgency">Urgency</label>
+                  <select id="urgency" name="urgency" required>
+                    <option value="">Select</option>
+                    <option value="now">Stranded – need help now</option>
+                    <option value="today">Today</option>
+                    <option value="planned">Planned transport</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="issue">What’s happened?</label>
+                <textarea
+                  id="issue"
+                  name="issue"
+                  placeholder="e.g. Won’t start, stuck in gear, flat tyre..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                Request my quote
+              </button>
+
+              <div class="hero-card-footer">
+                <div class="hero-card-line">
+                  <span>No payment details needed.</span>
+                  <span><strong>Free, no-obligation quote.</strong></span>
+                </div>
+                <div class="hero-card-trust">
+                  <span>🔒</span>
+                  <span>We only use your details to contact you about this recovery job.</span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section id="why-us">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why drivers use Rapid Recovery</h2>
+          <p class="section-sub">
+            You don’t care about memberships or points. You want your vehicle off the road
+            and somewhere safe, at a fair price, with no time-wasting.
+          </p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="card-tag">⚡</div>
+            <h3>Fast dispatch</h3>
+            <p>
+              Your request goes straight to available local operators, not a faceless call
+              centre. You get the closest truck, not the slowest queue.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-tag">💷</div>
+            <h3>Transparent pricing</h3>
+            <p>
+              Clear quote before recovery starts. No surprise “call-out fees” or hidden
+              extras dropped on you at the roadside.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-tag">🛠️</div>
+            <h3>Trusted operators</h3>
+            <p>
+              We only work with vetted local recovery professionals with the right insurance
+              and kit to move your vehicle safely.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What we can help with</h2>
+          <p class="section-sub">
+            From simple breakdowns to non-runners and accident recovery, we route your
+            request to the right kind of truck and operator.
+          </p>
+        </div>
+
+        <div class="services-list">
+          <article class="service">
+            <div class="service-header">
+              <h3 class="service-title">Roadside breakdown recovery</h3>
+              <span class="service-chip">Most popular</span>
+            </div>
+            <p>Stuck at the side of the road or in a car park? We’ll recover you to home or a local garage.</p>
+            <div class="service-meta">
+              <span>Within Portsmouth &amp; nearby</span>
+              <span>From £60 (distance-based)</span>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-header">
+              <h3 class="service-title">Home start &amp; non-runner moves</h3>
+              <span class="service-chip">Planned</span>
+            </div>
+            <p>Car won’t start on the drive or SORN on the street? We can move non-runners safely.</p>
+            <div class="service-meta">
+              <span>Driveway, street &amp; car parks</span>
+              <span>Quote based on access</span>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-header">
+              <h3 class="service-title">Garage to garage transport</h3>
+              <span class="service-chip">Enthusiasts</span>
+            </div>
+            <p>Need a project car or repair job moved between garages? Ideal for low, modified or classic vehicles.</p>
+            <div class="service-meta">
+              <span>Single or multi-stop</span>
+              <span>Pre-booked slots</span>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-header">
+              <h3 class="service-title">Accident &amp; salvage recovery</h3>
+              <span class="service-chip">Specialist</span>
+            </div>
+            <p>Light accident or undrivable vehicle? We can arrange recovery to your chosen bodyshop or storage yard.</p>
+            <div class="service-meta">
+              <span>Subject to access &amp; safety</span>
+              <span>Insurer friendly invoicing</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">How it works</h2>
+          <p class="section-sub">
+            No apps. No logins. Just three simple steps between “I’m stuck” and “I’m home”.
+          </p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>You call or submit the form</h3>
+            <p>
+              Tell us where you are, where you’re going and what you’re driving.
+              The more detail you give, the more accurate your quote.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>We match you with a driver</h3>
+            <p>
+              We contact trusted local recovery operators and confirm price and ETA
+              with you before anything moves.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>You get recovered</h3>
+            <p>
+              The driver arrives, loads the vehicle and takes it to your chosen
+              destination. You pay the driver directly once the job is done.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Drivers we’ve helped</h2>
+          <p class="section-sub">
+            When you’re stuck at the roadside, you don’t want sales talk. You want someone
+            who actually turns up when they say they will.
+          </p>
+        </div>
+
+        <div class="reviews">
+          <article class="review">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “Broke down on the M275 at 11pm. Had a callback within 5 minutes and
+              the truck arrived in under 40. Straight to my usual garage, no drama.”
+            </p>
+            <div class="review-footer">
+              <span>Emma – Portsmouth</span>
+              <span>Roadside breakdown</span>
+            </div>
+          </article>
+
+          <article class="review">
+            <div class="review-stars">★★★★★</div>
+            <p>
+              “Needed my non-runner BMW moved from my driveway to a specialist.
+              Price was fair, driver treated the car properly and kept me updated.”
+            </p>
+            <div class="review-footer">
+              <span>Ahmed – Fratton</span>
+              <span>Non-runner</span>
+            </div>
+          </article>
+
+          <article class="review">
+            <div class="review-stars">★★★★☆</div>
+            <p>
+              “Traffic meant they were 10 minutes later than quoted but they kept me
+              in the loop. Would use again rather than waiting hours for a big breakdown company.”
+            </p>
+            <div class="review-footer">
+              <span>Josh – Cosham</span>
+              <span>Home start</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Ready to move your vehicle?</h2>
+          <p class="section-sub">
+            If you’re stranded right now, calling is fastest. If it’s planned transport,
+            the form is usually best – we can quote properly and text you back.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Talk to dispatch</h3>
+            <p>
+              If you’re on a live breakdown, use the call button so we can prioritise you
+              based on your location and safety.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-label">Emergency line</div>
+                <a href="tel:+447000000000" class="contact-value">+44 7000 000000</a>
+                <span class="contact-tag">
+                  <span class="contact-tag-badge"></span>
+                  24/7 – answered by humans, not bots
+                </span>
+              </div>
+              <div class="contact-item">
+                <div class="contact-label">Service area</div>
+                <div class="contact-value">Portsmouth &amp; surrounding areas</div>
+                <span class="contact-tag">
+                  <span class="contact-tag-badge contact-tag-badge--orange"></span>
+                  Havant • Fareham • Gosport • A27 corridor
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3>For planned transport</h3>
+            <p>
+              Use the quick quote form above and we’ll call or text with a price and options.
+              Most planned jobs can be booked within 24–48 hours.
+            </p>
+            <a href="#quote" class="btn btn-primary btn-full">
+              Go to quote form
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© Rapid Recovery. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#hero">Back to top</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
